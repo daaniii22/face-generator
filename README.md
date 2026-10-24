@@ -34,3 +34,5 @@ Ataca los dos cuellos de botella identificados en el baseline (capacidad de reco
 
 #### 3. `overfitting.ipynb` — *Sensibilidad a la semilla*
 Dado que el FID evaluado sobre solo `200` imágenes tiene varianza muestral se prueba la sensibilidad con el mismo modelo y varias semillas para ver el resultado en competición.
+
+El enlace a los modelos entrenados es el siguiente: [Modelos entrenados](https://drive.google.com/drive/folders/1MU8rvtOZjd-GhR4rIhM1BbAh01GR0SW4?usp=share_link).
