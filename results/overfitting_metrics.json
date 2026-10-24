@@ -1,0 +1,16 @@
+{
+  "model": "ae_complex2",
+  "sampling_method": "kNN baric\u00e9ntrico (K=10)",
+  "reference_seed": 1234,
+  "fid_200_by_seed": {
+    "1234": 92.78829956054688,
+    "101": 94.03096008300781,
+    "202": 92.36946105957031,
+    "303": 90.8330078125
+  },
+  "submissions": {
+    "101": "submissions/submission_overfitting_knn_seed101.csv",
+    "202": "submissions/submission_overfitting_knn_seed202.csv",
+    "303": "submissions/submission_overfitting_knn_seed303.csv"
+  }
+}
