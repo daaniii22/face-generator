@@ -10,6 +10,12 @@ A partir de un subconjunto de **30.000 imágenes de CelebAMask-HQ** redimensiona
 
 El reto principal de utilizar un Autoencoder determinista como generador es que **un AE aprende a comprimir y reconstruir, pero no impone una distribución conocida sobre su espacio latente**. Por tanto, la calidad de las muestras generadas depende tanto de la capacidad de reconstrucción de la red como de la estrategia empleada para muestrear el espacio latente.
 
+### Diferencias entre AE y VAE
+
+- **AE:** aprende una representación latente determinista y se optimiza principalmente para reconstruir la entrada.
+- **VAE:** aprende una distribución latente mediante la reparametrización y la divergencia KL, lo que facilita generar nuevas muestras.
+- **Resultado:** el AE suele reconstruir con mayor precisión, mientras que el VAE produce un espacio latente más regular y generativo.
+
 ---
 
 ## **2. Metodología común**
