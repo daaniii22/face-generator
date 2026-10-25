@@ -38,7 +38,7 @@ Dado que el FID evaluado sobre solo `200` imágenes tiene varianza muestral se p
 #### 4. `fusion_caras.ipynb` — *Interpolación de caras*
 Carga `encoder_complex2.keras` y `decoder_complex2.keras` desde `checkpoints/` para fusionar dos fotografías en el espacio latente. Este notebook es únicamente de inferencia y no vuelve a entrenar los modelos.
 
-#### 4. `VAE_complex.ipynb` — *Implementación del Autoencoder Variacional*
-Evoluciona la arquitectura hacia un modelo probabilístico. Implementa la reparametrización y la divergencia KL para organizar el espacio latente como una distribución normal estándar N(0,I).
+#### 5. `VAE_complex.ipynb` — *Implementación del Autoencoder Variacional*
+Evoluciona la arquitectura hacia un modelo probabilístico. Implementa la reparametrización y la divergencia KL para organizar el espacio latente como una distribución normal N(0,I).
 
 El enlace a los modelos entrenados es el siguiente: [Modelos entrenados](https://drive.google.com/drive/folders/1MU8rvtOZjd-GhR4rIhM1BbAh01GR0SW4?usp=share_link).
